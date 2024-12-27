@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site Maintenance - We'll Be Back Soon</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+        }
+
+        body {
+            background-color: #ffffff;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .logo-container {
+            position: absolute;
+            top: 2rem;
+            right: 2rem;
+            width: 80px;
+        }
+
+        .logo {
+            width: 100%;
+            height: auto;
+        }
+
+        .maintenance-content {
+            max-width: 600px;
+            text-align: center;
+            margin-top: 15vh;
+            padding: 2rem;
+        }
+
+        h1 {
+            color: #000;
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+            font-weight: 700;
+        }
+
+        .highlight {
+            color: #FFD700;
+        }
+
+        p {
+            color: #666;
+            font-size: 1.2rem;
+            line-height: 1.6;
+            margin-bottom: 2rem;
+        }
+
+        .status-box {
+            background-color: #f8f8f8;
+            border: 2px solid #FFD700;
+            border-radius: 8px;
+            padding: 1.5rem;
+            margin-top: 2rem;
+        }
+
+        .status-text {
+            color: #333;
+            font-weight: 500;
+        }
+    </style>
+</head>
+<body>
+    <div class="logo-container">
+        <img src="/api/placeholder/80/80" alt="VM Logo" class="logo">
+    </div>
+
+    <div class="maintenance-content">
+        <h1>We're Currently <span class="highlight">Upgrading</span> Our Site</h1>
+        <p>Our team is performing scheduled maintenance to improve your experience. We'll be back online shortly.</p>
+        
+        <div class="status-box">
+            <p class="status-text">Expected completion time: 2 hours</p>
+            <p class="status-text">Thank you for your patience</p>
+        </div>
+    </div>
+</body>
+</html>
